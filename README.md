@@ -51,8 +51,15 @@ Key components:
 
 ## 👨‍💻 Author
 
+**Arsh Chauhan**  
+📬 [GitHub Profile](https://github.com/arshchouhan)
+
+---
+
+## 🎓 Mentor
+
 **Omkar Sharma**  
-📬 [LinkedIn](https://linkedin.com) • 🌐 [GitHub](https://github.com/omkarsharma2821)
+🌐 [GitHub Profile](https://github.com/omkarsharma2821)
 
 ---
 
