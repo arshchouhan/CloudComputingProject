@@ -69,7 +69,7 @@ Subnet: One of the public subnets
 Enable Auto-assign Public IP
 
 In Advanced → User data, paste:
-
+```
 #!/bin/bash
 apt-get update
 apt-get install nginx -y
@@ -116,6 +116,7 @@ cat <<EOF > /var/www/html/index.html
 </body>
 </html>
 EOF
+```
 
 <img width="1908" height="774" alt="image" src="https://github.com/user-attachments/assets/b9f6f309-0977-455e-9f74-dc024ac4a85c" />
 
@@ -150,7 +151,7 @@ After creating, click Register targets
 
 Select all 3 EC2 instances and add them
 
-📸 Insert screenshot of Target Group with all registered instances
+<img width="1919" height="850" alt="image" src="https://github.com/user-attachments/assets/f9c8c44c-fdc8-4ad0-8da2-d143075a8605" />
 
 ⚖️ Step 4: Create Application Load Balancer (ALB)
 
@@ -174,7 +175,7 @@ Select or create a Security Group that allows:
 
 In Listener configuration, forward traffic to Target Group: TG-1
 
-📸 Insert screenshot of ALB configuration and listener setup
+
 
 🌐 Step 5: Test Load Balancer
 
