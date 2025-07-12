@@ -134,4 +134,31 @@ Route tables define how network traffic flows within your VPC.
 ---
 
 ## 📁 Suggested VPC Architecture
+VPC (10.0.0.0/16)
+├── Public Subnet (AZ-1)
+│ └── ALB
+│ └── EC2 (public-facing)
+├── Private Subnet (AZ-1)
+│ └── RDS / Internal Services
+├── Public Subnet (AZ-2)
+│ └── ALB (replica)
+│ └── EC2 (public-facing replica)
+└── Private Subnet (AZ-2)
+└── RDS / Internal Services (replica)
+
+
+---
+
+## 📌 Summary
+
+This AWS infrastructure setup is designed to support:
+
+- 🔐 **Security**: Isolated and protected backend systems
+- ⚙️ **Scalability**: Auto scaling and load balancing
+- 🏢 **High Availability**: Redundancy across multiple AZs
+- 💡 **Resilience**: Health checks, failover, and monitoring
+- 💰 **Cost Efficiency**: Use of dynamic scaling and managed services
+
+> 🧠 **Built using AWS Well-Architected Framework and cloud-native best practices.**
+
 
