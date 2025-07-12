@@ -4,6 +4,9 @@ This document provides a comprehensive explanation of the AWS infrastructure des
 
 ---
 
+<img width="979" height="764" alt="image" src="https://github.com/user-attachments/assets/fe14f7c3-8284-4fc9-a1af-f9fbc2f9ed3c" />
+
+
 ## 🌐 Virtual Private Cloud (VPC)
 
 A **Virtual Private Cloud (VPC)** is a logically isolated network within AWS that allows you to launch and manage cloud resources with full control over networking, routing, and security.
