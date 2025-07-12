@@ -206,6 +206,11 @@ Welcome from Server-3 at 13.232.XXX.XX
 
 <img width="1766" height="899" alt="image" src="https://github.com/user-attachments/assets/0ca5bde7-5a73-4b1b-aee1-47c1d58d5d27" />
 
+<img width="1678" height="853" alt="image" src="https://github.com/user-attachments/assets/3b2d46ba-3170-444e-b507-b20b38d78fd1" />
+
+<img width="1783" height="812" alt="image" src="https://github.com/user-attachments/assets/3b7189c1-f521-4bc6-918f-37c5f25ef100" />
+
+
 📌 Recap of Resources
 
 Resource
