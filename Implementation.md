@@ -175,6 +175,14 @@ Select or create a Security Group that allows:
 
 In Listener configuration, forward traffic to Target Group: TG-1
 
+<img width="1906" height="815" alt="image" src="https://github.com/user-attachments/assets/613a683a-92a6-4fff-897f-7273dcb05bc1" />
+
+<img width="1918" height="822" alt="image" src="https://github.com/user-attachments/assets/306eefd3-d435-40bd-ab18-e6f117437294" />
+
+<img width="1876" height="491" alt="image" src="https://github.com/user-attachments/assets/687f4b5b-87c0-455e-a9e8-841c29c086d6" />
+
+<img width="1918" height="810" alt="image" src="https://github.com/user-attachments/assets/b34f8fca-45a0-491c-8b00-2757def2bbea" />
+
 
 
 🌐 Step 5: Test Load Balancer
@@ -197,7 +205,8 @@ Welcome from Server-1 at 13.232.XXX.XX
 Welcome from Server-2 at 13.232.XXX.XX
 Welcome from Server-3 at 13.232.XXX.XX
 
-📸 Add screenshot of browser showing load-balanced responses
+
+<img width="1766" height="899" alt="image" src="https://github.com/user-attachments/assets/0ca5bde7-5a73-4b1b-aee1-47c1d58d5d27" />
 
 📌 Recap of Resources
 
