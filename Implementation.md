@@ -197,8 +197,6 @@ myalb-123456789.ap-south-1.elb.amazonaws.com
 
 Paste it into a browser like:
 
-http://myalb-123456789.ap-south-1.elb.amazonaws.com
-
 Refresh the page multiple times. You should see different outputs like:
 
 Welcome from Server-1 at 13.232.XXX.XX
