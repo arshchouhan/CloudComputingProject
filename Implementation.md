@@ -30,6 +30,10 @@ Leave VPC Endpoints unchecked or hidden
 
 <img width="1906" height="821" alt="image" src="https://github.com/user-attachments/assets/9b4f429d-f223-40e5-9ee1-57df272ca1c1" />
 
+<img width="1911" height="814" alt="image" src="https://github.com/user-attachments/assets/5338dc74-eb36-47a7-8334-05ff445c89a8" />
+
+<img width="1898" height="815" alt="image" src="https://github.com/user-attachments/assets/763b3f2f-ab9f-4ee8-9fe0-eb6bb0ba9122" />
+
 
 
 🖥️ Step 2: Launch EC2 Instances (Web Servers)
@@ -52,6 +56,10 @@ AMI: Amazon Linux 2 or Ubuntu
 
 Instance Type: t2.micro
 
+<img width="1897" height="823" alt="image" src="https://github.com/user-attachments/assets/21ec6082-7dc4-4693-9809-4429d5fd5382" />
+
+<img width="1902" height="772" alt="image" src="https://github.com/user-attachments/assets/b3602ba7-cd90-4289-adac-55d81dd33fee" />
+
 In Network Settings:
 
 VPC: MyVPC
@@ -69,13 +77,18 @@ systemctl start nginx
 EC2_IP=$(curl http://169.254.169.254/latest/meta-data/public-ipv4)
 echo "Welcome from Server-1 at $EC2_IP" > /usr/share/nginx/html/index.html
 
+<img width="1908" height="774" alt="image" src="https://github.com/user-attachments/assets/b9f6f309-0977-455e-9f74-dc024ac4a85c" />
+
+<img width="1910" height="816" alt="image" src="https://github.com/user-attachments/assets/188da5b7-c73e-4990-b699-03ed200181bc" />
+
 In Security Group, allow:
 
 ✅ HTTP (port 80) – for web access
 
 ✅ (Optional) SSH (port 22) – for terminal access
 
-📸 Insert screenshots of EC2 config and Security Group rules
+<img width="1916" height="870" alt="image" src="https://github.com/user-attachments/assets/4add12d7-3835-45f4-b912-7f2356a868ab" />
+
 
 🎯 Step 3: Create Target Group
 
