@@ -26,7 +26,11 @@ An Internet Gateway (attached to the VPC)
 
 Leave VPC Endpoints unchecked or hidden
 
-📸 Insert screenshot of VPC setup here
+<img width="1905" height="771" alt="image" src="https://github.com/user-attachments/assets/a3136862-d01b-4e4f-95db-ceda385e358d" />
+
+<img width="1906" height="821" alt="image" src="https://github.com/user-attachments/assets/9b4f429d-f223-40e5-9ee1-57df272ca1c1" />
+
+
 
 🖥️ Step 2: Launch EC2 Instances (Web Servers)
 
