@@ -71,11 +71,51 @@ Enable Auto-assign Public IP
 In Advanced → User data, paste:
 
 #!/bin/bash
-yum update -y
-yum install nginx -y
-systemctl start nginx
-EC2_IP=$(curl http://169.254.169.254/latest/meta-data/public-ipv4)
-echo "Welcome from Server-1 at $EC2_IP" > /usr/share/nginx/html/index.html
+apt-get update
+apt-get install nginx -y
+
+cat <<EOF > /var/www/html/index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to $(hostname)</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3em;
+      margin: 0.2em 0;
+    }
+    p {
+      font-size: 1.2em;
+      color: #cce3ff;
+    }
+    .hostname {
+      background: #ffffff33;
+      padding: 0.5em 1em;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1> Welcome to Your Server!</h1>
+  <p>This server is proudly hosted as:</p>
+  <div class="hostname">$(hostname)</div>
+</body>
+</html>
+EOF
 
 <img width="1908" height="774" alt="image" src="https://github.com/user-attachments/assets/b9f6f309-0977-455e-9f74-dc024ac4a85c" />
 
