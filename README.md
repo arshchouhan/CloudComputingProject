@@ -16,7 +16,7 @@ A real-world cloud project demonstrating how to architect a secure, scalable, an
 
 ## 📷 Architecture Overview
 
-> Check the `project-details.md` for a complete architecture diagram and design rationale.
+> Check the `ProjectDetails.md` for a complete architecture diagram and design rationale.
 
 Key components:
 
@@ -34,7 +34,7 @@ Key components:
 ## 🎬 Video Recording
 
 📺 Watch the full setup and explanation here:  
-[🔗 YouTube Video](#) *(Insert your video link)*
+[🔗 https://youtu.be/RG6HuFa3mig?si=eW6pQ8lVFHx6B2QQ](#) 
 
 ---
 
