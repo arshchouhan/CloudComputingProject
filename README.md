@@ -34,7 +34,7 @@ Key components:
 ## 🎬 Video Recording
 
 📺 Watch the full setup and explanation here:  
-[🔗 https://youtu.be/RG6HuFa3mig?si=eW6pQ8lVFHx6B2QQ](#) 
+🔗 https://youtu.be/RG6HuFa3mig?si=eW6pQ8lVFHx6B2QQ
 
 ---
 
