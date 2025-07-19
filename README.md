@@ -9,7 +9,7 @@ A real-world cloud project demonstrating how to architect a secure, scalable, an
 | File | Description |
 |------|-------------|
 | [`ProjectDetails.md`](./ProjectDetails.md) | In-depth explanation of VPC, subnets, load balancer, and other AWS components |
-| [`implementation.md`](./implementation.md) | Step-by-step deployment instructions (via AWS Console or CLI) |
+| [`Implementation.md`](./Implementation.md) | Step-by-step deployment instructions (via AWS Console or CLI) |
 | 🎥 **Video Walkthrough** | Detailed project explanation and setup demo *(link below)* |
 
 ---
