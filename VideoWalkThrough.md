@@ -26,8 +26,10 @@ This video presents a walkthrough of Cloud Computing project. It includes:
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/arshchouhan/CloudComputingProject
 
 Follow setup instructions in the Implementation.md 
 
 Watch the YouTube video for a complete demo
+
+
