@@ -4,9 +4,8 @@
 
 👉 **[Click here to watch the video](https://youtu.be/RG6HuFa3mig)**
 
-This video presents a walkthrough of our Cloud Computing project. It includes:
+This video presents a walkthrough of Cloud Computing project. It includes:
 
-- 💡 Project Idea Explanation  
 - ☁️ Cloud Deployment Steps  
 - ⚙️ Technologies Used  
 - 🧪 Demonstration of Application  
@@ -16,11 +15,10 @@ This video presents a walkthrough of our Cloud Computing project. It includes:
 
 ### 📌 Technologies Used
 
-- AWS EC2 / S3 / Lambda (as applicable)
-- Node.js / PHP / Python
-- MongoDB / MySQL
-- Docker (if used)
-- GitHub for version control
+- AWS EC2 / Ubuntu/ Ingninx
+- VPC(Virtual Private Cloud)
+- Application Load Balancer
+- Target Groups
 
 ---
 
@@ -29,3 +27,7 @@ This video presents a walkthrough of our Cloud Computing project. It includes:
 1. Clone this repository  
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
+
+Follow setup instructions in the Implementation.md 
+
+Watch the YouTube video for a complete demo
